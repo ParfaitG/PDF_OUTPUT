@@ -34,14 +34,10 @@ public class DataToPDF_Java {
             ArrayList<String> energyval = new ArrayList<String>();
             ArrayList<String> enduse = new ArrayList<String>();
             ArrayList<String> desc = new ArrayList<String>();                        
-            ArrayList<String> unit = new ArrayList<String>();	    
+            ArrayList<String> unit = new ArrayList<String>();  
 
 	    ArrayList<ArrayList<String>> energydata = new ArrayList<ArrayList<String>>();
 	    ArrayList<ArrayList<String>> energypivot = new ArrayList<ArrayList<String>>();
-	    	    
-	    String COLUMN_HEADER = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12";
-            String COMMA_DELIMITER = ",";
-            String NEW_LINE_SEPARATOR = "\n";
 	    
             try {                
 		String csvFile = currentDir + "\\DATA\\EnergyConsumptionBySector1949-2015.csv";
